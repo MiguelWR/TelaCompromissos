@@ -1,0 +1,248 @@
+.libre-caslon-text-regular {
+    font-family: "Libre Caslon Text", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .libre-caslon-text-bold {
+    font-family: "Libre Caslon Text", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .libre-caslon-text-regular-italic {
+    font-family: "Libre Caslon Text", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  body {
+    background-color: #031539;
+    font-family: 'Libre Caslon Text', serif;
+    margin: 0;
+}
+
+#div0 {
+    background-color: rgb(134, 188, 221);
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    border-radius: 10px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    padding: 10px;
+    position: sticky;
+    top: 120px; 
+    z-index: 1;
+    color: #000;
+}
+
+#div0 label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+#div1, #div2, #div3, #div4 {
+    width: 100%;
+    box-sizing: border-box; 
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+#div1, #div3 {
+    width: 45%;
+}
+
+#div2, #div4 {
+    width: 45%; 
+    margin-left: 10px; 
+}
+
+ 
+.editavel {
+    cursor: pointer;
+    border-bottom: 1px dashed #000;
+}
+
+#botaoAdicionar {
+    position: fixed;
+    top: 40px;
+    left: 140px;
+    z-index: 1;
+    font-family: "Libre Caslon Text";
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #031539;
+    border: none;
+    cursor: pointer;
+}
+
+#scrollToggleButton {
+    position: fixed;
+    top: 40px;
+    left: 10px;
+    z-index: 1;
+    font-family: 'Libre Caslon Bold';
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #031539;
+    border: none;
+    cursor: pointer;
+}
+
+#topo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #031539;
+    padding: 60px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+#topo button,
+#topo span,
+#topo div {
+    margin-right: 10px;
+}
+
+#topo #clock-container {
+    position: fixed;
+    top: 49px;
+    right: 250px;
+    z-index: 1;
+    display: flex;
+    align-items: center; 
+}
+
+
+#clock-background {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    height: 40px;
+    background-color: #fff; 
+    border-radius: 20px; 
+    padding: 0 70px;
+    box-sizing: border-box;
+}
+
+#clock {
+    color: #000;
+    font-size: 24px;
+    font-family: "Libre Caslon Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 1;
+}
+
+
+#image-container {
+    position: fixed;
+    top: 10px; 
+    right: 50px; 
+    z-index: 1;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#image-container img {
+    width: 90px;
+    height: 90px;
+    right: 10px;
+}
+#empty-space {
+    margin-top: 10%;
+}
+
+#drop_zone {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: white;
+    color: black;
+    top: 10%;
+    margin-left: 40%;
+    border: 2px solid #fff;
+    height: 100px;
+    width: 250px;
+    border-radius: 5px;
+    border: 3px solid rgb(167, 196, 214); 
+}
+
+.header-cell {
+    font-weight: Libre Caslon Bold;
+    color: #000;
+    background-color: rgb(167, 196, 214); 
+}
+
+.column-name {
+    font-weight: bold; 
+    margin-right: 5px; 
+    
+}
+.header-row {
+    background-color: rgb(134, 188, 221);
+    color: #fff; 
+    font-weight: bold;
+    gap: 10px;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between; 
+    background-color: rgb(167, 196, 214);
+    padding: 10px;
+    width: 95%; 
+    margin: 10px auto;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.row p {
+    border-bottom: 1px solid #ccc;
+    padding: 5px 10px;
+    margin: 0;
+    flex: 1 1 45%; 
+    box-sizing: border-box;
+}
+
+.row p:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.cell {
+    flex: 1; 
+    padding: 15px; 
+    text-align: center;
+    font-family: "Libre Caslon Text", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.data-horario{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#fileInput {
+    display: none;
+}
+
+#fileInputLabel {
+    cursor: pointer;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 0%;
+    width: 200px;
+}
