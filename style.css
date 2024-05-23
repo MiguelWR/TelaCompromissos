@@ -2,20 +2,20 @@
     font-family: "Libre Caslon Text", serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
   
-  .libre-caslon-text-bold {
+.libre-caslon-text-bold {
     font-family: "Libre Caslon Text", serif;
     font-weight: 700;
     font-style: normal;
-  }
+}
   
-  .libre-caslon-text-regular-italic {
+.libre-caslon-text-regular-italic {
     font-family: "Libre Caslon Text", serif;
     font-weight: 400;
     font-style: italic;
-  }
-  body {
+}
+body {
     background-color: #031539;
     font-family: 'Libre Caslon Text', serif;
     margin: 0;
@@ -233,6 +233,8 @@
 .data-horario{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+
 #fileInput {
     display: none;
 }
@@ -245,4 +247,33 @@
     border-radius: 5px;
     margin-right: 0%;
     width: 200px;
+}
+.header-row .column-local {
+    margin-left: -40px; /* Ajuste este valor conforme necessário */
+}
+
+.header-row .column-tipo {
+    margin-left: -80px; /* Ajuste este valor conforme necessário */
+}
+
+.header-row .column-cliente {
+    margin-left: -50px; /* Ajuste este valor conforme necessário */
+}
+.header-row .column-comarca {
+    margin-left: -50px;
+}
+.header-row .column-vara {
+    margin-left: -50px;
+}
+.header-row .column-data {
+    margin-left: -30px;
+}
+.header-row .column-contrario {
+    margin-left: -50px;
+}
+.header-row .column-cnj {
+    margin-left: -50px;
+}
+.header-row .column-envolvido {
+    margin-left: -50px;
 }
